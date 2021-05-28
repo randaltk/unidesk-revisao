@@ -1,0 +1,742 @@
+html {
+  background-color: #fafafa;
+}
+
+.header-wrapper {
+  width: 100%;
+}
+.header-navigation {
+  margin: 0 auto;
+}
+.mobile-separator {
+  display: none;
+  width: 100%;
+  height: 2rem;
+  background-color: #0097c3;
+
+  text-align: center;
+  margin: 0 auto;
+}
+.mobile-separator img {
+  width: 5rem;
+
+  margin: -1.5rem auto;
+}
+
+.header-menu {
+  color: #fff;
+}
+
+.logo img {
+  width: 250px;
+}
+nav ul .nav-item,
+nav ul .nav-item a,
+nav ul .nav-item a:link,
+nav ul .nav-item a:hover,
+nav ul .nav-item a:active {
+  color: #000;
+  font-size: 1rem;
+}
+
+.header-border {
+  width: 95%;
+
+  border: 1px solid #bababa;
+
+  margin: 0rem 0rem 0rem 1.7rem;
+}
+/*                                      Sessao Recadastramento                */
+.sessao-servico-de-recadastramento {
+  text-align: center;
+}
+
+.content-recadastramento {
+  margin: 5rem auto;
+  width: 50%;
+}
+
+.content-recadastramento h2 {
+  width: 75%;
+}
+
+.content-recadastramento span {
+  display: block;
+}
+
+.content-recadastramento .description {
+  text-align: center;
+  margin: 1rem auto;
+  width: 60%;
+}
+.grid-wrapper {
+  margin: 1rem auto;
+  width: 100%;
+  display: flex;
+}
+
+.grid-content {
+  /* background-color: burlywood; */
+  margin: 0px 7rem;
+  display: flex;
+  width: 60%;
+}
+
+.grid-content img {
+  width: 23.375rem;
+  object-fit: contain;
+}
+.grid-images img {
+  width: 25.25rem;
+}
+.grid-images {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 1rem;
+}
+
+#img-2 {
+  margin-top: 0.7rem;
+}
+.grid-text {
+  display: flex;
+  /* background-color: crimson; */
+  min-width: 45%;
+  flex-direction: column;
+  margin: 0px 1rem;
+}
+
+.description {
+  width: 100%;
+  margin-top: 0;
+}
+
+.sessao-servico-de-recadastramento .grid-circle {
+  border: 4px solid #7ac4c1;
+  border-radius: 16px;
+  height: 0.8rem;
+  width: 0.8rem;
+}
+.grid-circle {
+  border: 4px solid #7ac4c1;
+  border-radius: 16px;
+  height: 0.8rem;
+  min-width: 0.8rem;
+}
+.flex-section {
+  width: 100%;
+  height: 30%;
+  display: grid;
+  grid-template-columns: 9% 1fr;
+  margin: 3rem auto;
+
+  /* background-color: yellowgreen; */
+}
+.flex-section p {
+  font-size: 0.95rem;
+}
+
+/*                                      Sessao Coleta de dados               */
+
+.sessao-coleta-de-dados {
+  margin: 5rem auto;
+}
+.flex-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.content-column h3 {
+  margin-top: 15rem;
+}
+
+.content-column h2 {
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+}
+.content-column {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.2rem;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.flex-wrapper {
+  display: flex;
+  width: 75rem;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+.content-column-grid {
+  display: flex;
+  flex-direction: column;
+  width: 17.688rem;
+}
+.content-column-grid h4 {
+  color: #7b7b7b;
+  font-weight: 700;
+  width: 100%;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.content-column-grid p {
+  color: #7b7b7b;
+}
+.flex-grid {
+  display: flex;
+  margin-top: 1rem;
+
+  align-content: center;
+}
+.flex-grid .grid-circle {
+  height: 0.7rem;
+  width: 0.7rem;
+}
+.flex-grid p {
+  margin-left: 1rem;
+}
+.separator {
+  width: 1px;
+  height: auto;
+  border-radius: 50%;
+
+  background-color: #d5cfcf;
+}
+
+#hidden {
+  color: #fafafa;
+}
+.space {
+  margin-left: 4rem;
+}
+
+.planta-generica-content {
+  display: flex;
+  margin-top: 5rem;
+  margin-left: 7rem;
+}
+.planta-generica-content .image-wrapper {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+#content-img-2 {
+  margin-top: 6rem;
+  margin-left: 1rem;
+}
+.planta-generica-content .content-column {
+  /* background-color: aqua; */
+  display: block;
+  width: 50%;
+  padding-left: 5rem;
+  margin-top: 3rem;
+}
+.planta-generica-content .content-column .title {
+  margin-bottom: 1rem;
+}
+
+.planta-generica-content .content-column .description {
+  width: 55%;
+}
+/*                                      Sessão instrumento essencial                 */
+.sessao-instrumento-essencial {
+  margin-top: 7rem;
+}
+.sessao-instrumento-essencial .content-column {
+  margin-top: -17rem;
+  justify-content: center;
+}
+.sessao-instrumento-essencial .content-column {
+  width: 35%;
+}
+
+.sessao-instrumento-essencial .content-column span {
+  margin-left: 2rem;
+}
+.sessao-instrumento-essencial .content-column h2 {
+  margin-bottom: 1rem;
+}
+.sessao-instrumento-essencial .content-column p {
+  width: 75%;
+}
+#p-2 {
+  margin-top: 1rem;
+}
+.sessao-instrumento-essencial .image-wrapper {
+  margin-right: 4rem;
+}
+
+.sessao-instrumento-essencial .image-wrapper img {
+  width: 85%;
+}
+.sessao-instrumento-essencial .centered-content-wrapper {
+  margin: 6rem auto;
+
+  /* background-color: khaki; */
+}
+.sessao-instrumento-essencial .centered-content {
+  width: 60%;
+  margin: 0 auto;
+  /* background-color: lawngreen; */
+}
+
+.sessao-instrumento-essencial .centered-content {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.sessao-instrumento-essencial .centered-content h2 {
+  width: 60%;
+}
+
+.grid-centered {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 1rem auto;
+  width: 100%;
+}
+.grid-centered .grid-circle {
+  justify-content: space-around;
+  min-width: 0.8rem;
+}
+.grid-centered-item {
+  display: flex;
+  margin: 1rem auto;
+  width: 50%;
+  padding-left: 5rem;
+}
+
+.grid-centered-item h4 {
+  margin-top: 0.2rem;
+  margin-left: 1rem;
+}
+/*                                         Sessao simulador de IPTU                   */
+.sessao-simulador-de-iptu .content-column {
+  width: 60%;
+}
+.sessao-simulador-de-iptu .description {
+  text-align: center;
+}
+
+.sessao-simulador-de-iptu .content-column h2 {
+  margin-bottom: 0;
+  text-align: center;
+  width: 55%;
+}
+
+#p-3 {
+  margin-top: 1rem;
+}
+
+#simulacao-iptu {
+  margin-top: 6rem;
+}
+
+#content-simulacao-iptu {
+  text-align: center;
+}
+
+.sessao-simulador-de-iptu .grid-centered {
+  grid-template-columns: auto auto;
+  width: 50%;
+  margin: 2rem auto;
+}
+.sessao-simulador-de-iptu .grid-centered-item {
+  width: 100%;
+  padding-left: 0;
+}
+
+.sessao-simulador-de-iptu .grid-centered-item h4 {
+  width: 100%;
+  margin-top: -0.05rem;
+  font-size: 1.1rem;
+}
+/*                                      Sessão Resultados de simulacoes                */
+
+.sessao-resultados-de-simulacoes .content-column {
+  width: 34%;
+  margin: 0 auto;
+}
+
+.sessao-resultados-de-simulacoes .content-column h2 {
+  margin-bottom: 1rem;
+}
+.sessao-resultados-de-simulacoes .image-wrapper {
+  display: flex;
+  max-width: 47.688rem;
+  align-items: center;
+}
+.sessao-resultados-de-simulacoes .image-wrapper img {
+  width: 80%;
+  margin-top: 10rem;
+  align-items: center;
+}
+.sessao-resultados-de-simulacoes .image-wrapper :nth-child(2) {
+}
+
+/*                                      Sessão Mapa urbano basico               */
+.sessao-mapa-urbano-basico {
+  margin-left: 6rem;
+}
+.sessao-mapa-urbano-basico h2 {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.vector {
+  width: 1.563rem;
+}
+
+.sessao-mapa-urbano-basico .grid-centered {
+  width: 100%;
+}
+.sessao-mapa-urbano-basico .grid-centered-item {
+  width: 100%;
+  margin: 0.5rem auto;
+  padding-left: 0;
+}
+.sessao-mapa-urbano-basico .grid-centered {
+  grid-template-columns: 5% 95%;
+  grid-gap: 1rem;
+}
+
+.grid-images-right {
+  display: grid;
+  grid-template-columns: 43% 43%;
+  grid-gap: 1%;
+  /* max-width: 30rem; */
+  margin-top: 10rem;
+}
+#area-top {
+  margin-top: 3rem;
+}
+
+/*                                 Sessao vantagens dos servicos                       */
+.sessao-vantagens-dos-servicos {
+  margin: 12rem auto;
+}
+.sessao-vantagens-dos-servicos h2 {
+  text-align: center;
+}
+.sessao-vantagens-dos-servicos .grid-item .flex-content {
+  justify-content: start;
+}
+.sessao-vantagens-dos-servicos .grid-item .flex-content h4 {
+  margin-left: 0.5rem;
+}
+
+.sessao-vantagens-dos-servicos .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: 1rem auto;
+}
+.sessao-vantagens-dos-servicos .grid-item {
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.sessao-vantagens-dos-servicos .description {
+  margin-top: 0.5rem;
+}
+
+.line-final {
+  width: 90%;
+  border-radius: 50%;
+  margin: 5rem auto;
+  align-items: center;
+  border: 0.5px solid #d5cfcf;
+}
+/*                                          Media Screens                              */
+@media screen and (max-width: 1300px) {
+  .grid-images img:nth-child(2) {
+    display: none;
+  }
+  #hidden {
+    display: none;
+  }
+  .grid-content {
+    width: 90%;
+    margin-left: 1rem;
+  }
+
+  .separator {
+    display: none;
+  }
+  .planta-generica-content .image-wrapper {
+    display: block;
+  }
+  .sessao-coleta-de-dados .image-wrapper img {
+    width: 100%;
+  }
+  .sessao-coleta-de-dados .flex-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .grid-images-right :nth-child(1) {
+    display: none;
+  }
+  .grid-images-right :nth-child(2) {
+    display: none;
+  }
+
+  .sessao-mapa-urbano-basico {
+    margin: 0rem 2rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .grid-images-right :nth-child(4) {
+    display: none;
+  }
+
+  .sessao-mapa-urbano-basico {
+    margin: 0rem 2rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  header {
+    margin: 0 auto;
+  }
+
+  .header-border {
+    display: none;
+  }
+
+  nav ul .nav-item,
+  nav ul .nav-item a,
+  nav ul .nav-item a:link,
+  nav ul .nav-item a:hover,
+  nav ul .nav-item a:active {
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .sessao-coleta-de-dados .image-wrapper img {
+    width: 70%;
+    margin-top: 25%;
+    margin-left: 15%;
+  }
+  .content-recadastramento h2 {
+    text-align: center;
+    width: 100%;
+  }
+  .sessao-coleta-de-dados {
+    margin: 0 auto;
+  }
+
+  .content-recadastramento span {
+    display: inline;
+  }
+  .content-recadastramento {
+    width: 80%;
+  }
+  .content-recadastramento .description {
+    text-align: center;
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .sessao-servico-de-recadastramento .grid-content {
+    flex-direction: row-reverse;
+    margin: 0 auto;
+  }
+  .grid-images img {
+    width: 15rem;
+  }
+  .grid-text {
+    min-width: 30%;
+  }
+  .grid-centered-item {
+    padding-left: 0rem;
+  }
+  .grid-text .grid-circle {
+    margin-top: 1rem;
+  }
+  .grid-text .description {
+    margin-top: 1rem;
+  }
+
+  .flex-wrapper {
+    flex-direction: column;
+  }
+  .flex-wrapper .space {
+    display: none;
+  }
+  .flex-grid .grid-circle {
+    display: none;
+  }
+
+  .planta-generica-content .image-wrapper {
+    display: none;
+  }
+  .sessao-instrumento-essencial .grid-centered {
+    grid-template-columns: 50% auto;
+  }
+  .planta-generica-content .content-column {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: flex-end;
+    padding-left: 0rem;
+  }
+  .planta-generica-content {
+    display: block;
+    text-align: end;
+    margin: 0rem 2rem;
+  }
+  .planta-generica-content .content-column .title {
+    width: 100%;
+  }
+  .planta-generica-content .content-column .description {
+    width: 100%;
+    margin-left: 0;
+  }
+  .mobile-separator {
+    display: block;
+  }
+  .sessao-instrumento-essencial .content-column span {
+    margin-left: 0;
+  }
+  .sessao-instrumento-essencial .image-wrapper {
+    margin: 0 auto;
+  }
+  .sessao-resultados-de-simulacoes .content-column {
+    width: 80%;
+  }
+  .sessao-instrumento-essencial .centered-content {
+    margin: 3rem auto;
+  }
+  .sessao-instrumento-essencial .centered-content {
+    width: 100%;
+  }
+  .sessao-simulador-de-iptu .grid-centered {
+    width: 70%;
+    grid-template-columns: 10% 90%;
+  }
+
+  .sessao-mapa-urbano-basico .flex-content {
+    width: 100%;
+  }
+
+  .sessao-mapa-urbano-basico .content-column {
+    width: 90%;
+    padding-left: 0rem;
+    margin-top: -8rem;
+  }
+
+  .sessao-vantagens-dos-servicos {
+    margin: 0 auto;
+  }
+  .content-column-grid h4 {
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .logo img {
+    width: 180px;
+  }
+  .grid-images-right {
+    display: none;
+  }
+  .grid-text {
+    width: auto;
+  }
+  .sessao-servico-de-recadastramento .flex-section .description {
+    margin-left: 1rem;
+  }
+  .sessao-simulador-de-iptu .content-column {
+    width: 95%;
+  }
+  .sessao-coleta-de-dados .flex-content {
+    margin: -12rem auto;
+  }
+  .planta-generica-content {
+    margin: 16rem auto;
+  }
+  .sessao-coleta-de-dados .flex-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .grid-images img {
+    width: 6rem;
+  }
+  .sessao-instrumento-essencial {
+    margin-top: -8rem;
+  }
+  .sessao-instrumento-essencial .content-column {
+    width: 70%;
+  }
+  .sessao-instrumento-essencial .content-column p {
+    width: 100%;
+  }
+  .sessao-instrumento-essencial .centered-content h2 {
+    width: 80%;
+  }
+  #content-simulacao-iptu p {
+    margin: 1rem 1.5rem;
+    text-align: center;
+  }
+
+  .sessao-instrumento-essencial .image-wrapper {
+    width: 40%;
+  }
+  .sessao-instrumento-essencial .grid-centered {
+    width: 100%;
+  }
+  .sessao-instrumento-essencial .grid-centered-item {
+    width: 70%;
+  }
+  .sessao-resultados-de-simulacoes {
+    margin-top: -14rem;
+  }
+  .sessao-resultados-de-simulacoes .content-column {
+    width: 100%;
+  }
+
+  .sessao-resultados-de-simulacoes .image-wrapper {
+    width: 70%;
+  }
+  .sessao-resultados-de-simulacoes .image-wrapper img {
+    width: 100%;
+  }
+  .sessao-coleta-de-dados .image-wrapper img {
+    width: 80%;
+    margin-top: 20rem;
+  }
+
+  .sessao-simulador-de-iptu .content-column {
+    padding-left: 0;
+  }
+
+  .sessao-vantagens-dos-servicos .grid-centered {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .sessao-vantagens-dos-servicos .grid-centered-item {
+    width: 90%;
+  }
+  .sessao-vantagens-dos-servicos .content-column {
+    width: 100%;
+    padding: 0;
+    margin: 0rem 2rem;
+  }
+
+  .sessao-vantagens-dos-servicos .grid-container {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  .sessao-vantagens-dos-servicos .grid-item {
+    width: 80%;
+  }
+
+  .sessao-mapa-urbano-basico {
+    margin: 0rem 0rem;
+  }
+}

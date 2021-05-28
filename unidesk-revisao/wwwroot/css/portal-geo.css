@@ -1,0 +1,653 @@
+header {
+  background-image: url(../img/PortalGeo/carousel_img.png);
+  background-position: top left;
+  background-size: 1467px;
+}
+#linear-gradient {
+  height: 26.804rem;
+  width: 100%;
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.5) -16.9%, rgba(0, 151, 195, 0) 100%);
+}
+.header-menu {
+  text-shadow: -0.5px 0 1px black, 0 0.5px 1px black, 0.5px 0 1px black, 0 -0.5px 1px black;
+  font-weight: 700;
+}
+.logo-portal-geo {
+  margin-left: 6.9rem;
+}
+
+.header-content {
+  margin: 0 auto;
+  width: 100%;
+  /* background-color: rebeccapurple; */
+}
+.header-navigation {
+  padding: 10px;
+}
+
+.text-card {
+  margin: 1rem 0rem 0rem 11.9rem;
+  width: 420px;
+  height: 250px;
+}
+.btn.btn-default-header {
+  font-size: 16px;
+  width: 270px;
+  line-height: 1.5rem;
+
+  background-image: linear-gradient(to right, #61cac1, #0092c2) !important;
+  padding: 10px 26px;
+  color: white;
+  border-radius: 8rem;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  outline: none;
+}
+.btn.btn-default-header:hover {
+  background-image: linear-gradient(to right, #489992, #0085b0) !important;
+  cursor: pointer;
+}
+.btn.btn-default-header img {
+  width: 0.7rem;
+  margin-left: 0.2rem;
+}
+.mobile-separator {
+  display: none;
+  width: 100%;
+  height: 2rem;
+  background-color: #7ac4c1;
+  margin-top: 3rem;
+}
+.mobile-separator-2 {
+  background-color: #0097c3;
+}
+/*                                                             Sessao Ferramenta                                 */
+.sessao-ferramenta {
+  width: 34.45%;
+
+  margin: 3rem 0rem 5rem 11.9rem;
+}
+/* .content-ferramenta h2.title {
+  font-weight: normal;
+} */
+
+.border-inside-card {
+  width: 25.7%;
+  margin: 4rem auto;
+}
+
+.border-inside-card-bottom {
+  width: 25.7%;
+  margin: -0.1rem auto;
+}
+
+h2.title {
+  margin-top: 1rem;
+}
+
+/*                                           Sessao Formatos                        */
+.content-banner {
+  max-width: 58.75rem;
+}
+.sessao-formatos img {
+  /* width: 58.75rem; */
+  width: 100%;
+}
+.flex-section {
+  display: flex;
+}
+
+.cards-mobile {
+  display: none;
+}
+.cards-top-wrapper {
+  display: flex;
+}
+
+.card-item {
+  background-color: white;
+  box-shadow: 3px 4px 16px -3px rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+  margin-left: 0.5rem;
+  width: 194px;
+}
+.card-item-wrapper {
+  /* background-color: coral; */
+  width: 92%;
+
+  margin: 0 auto;
+}
+.card-item p {
+  margin: 2rem auto;
+  font-size: 1rem;
+}
+
+.text-content-desktop {
+  /* margin: 1rem 0rem 5rem 11.9rem;*/
+  width: 30.313rem;
+}
+.text-content-mobile {
+  display: none;
+}
+.cards-bottom-wrapper {
+  display: flex;
+  margin: 2rem 0rem 0rem 4rem;
+
+  /* 
+  background-color: cyan; */
+}
+
+.sessao-visao-de-dados {
+  display: flex;
+}
+
+.sessao-visao-de-dados .banner-content {
+  height: auto;
+  max-width: 50%;
+  max-height: 400px;
+
+  display: flex;
+  position: relative;
+  padding-right: 22%;
+}
+
+.sessao-visao-de-dados .fundo-azul {
+  height: 100%;
+}
+
+.sessao-visao-de-dados .fundo-container {
+  height: 70%;
+  position: absolute;
+  left: 10%;
+  top: 15%;
+}
+
+.sessao-visao-de-dados-content {
+  flex: 1;
+}
+
+.sessao-visao-de-dados-content .card-item {
+  height: auto;
+  width: auto;
+}
+
+#cards-visao-de-dados {
+  margin: 3rem 0px;
+}
+
+/*                                      Sessao Plataforma dinamica                  */
+
+.flex-content {
+  display: flex;
+  justify-content: space-around;
+}
+.content-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.image-wrapper {
+  max-width: 30rem;
+  margin-left: 5rem;
+}
+
+.grid-content {
+  width: 100%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
+}
+
+.grid-content .flex-content {
+  justify-content: start;
+}
+.grid-circle {
+  border: 2px solid #7ac4c1;
+  border-radius: 16px;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+/* .grid-item {
+  margin-top: 5rem;
+} */
+
+.grid-item h4 {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+#grid-container-2 {
+  grid-template-columns: 1fr 1fr;
+}
+#plataforma-dinamica-2 {
+  margin: 5rem auto;
+}
+/*                                      Sessao Plataforma dinamica 2                 */
+
+/*                                       Media Screens                                */
+@media screen and (max-width: 1200px) {
+  #desc {
+    width: 90%;
+  }
+
+  .sessao-formatos .content-banner {
+    display: none;
+  }
+  .text-content-desktop {
+    display: none;
+  }
+  .cards-top-wrapper {
+    display: none;
+  }
+  .cards-bottom-wrapper:not(#cards-visao-de-dados) {
+    display: none;
+  }
+
+  .text-content-mobile {
+    display: block;
+    width: 100%;
+    /*margin: 4rem 0rem 0rem 11.9rem; */
+  }
+
+  .cards-mobile-wrapper {
+    margin: 0 auto;
+    width: 65%;
+    flex-wrap: wrap;
+  }
+  .border-inside-card {
+    margin-top: 1rem;
+  }
+  .cards-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 5rem auto;
+    width: 100%;
+  }
+
+  .card-item {
+    margin: 1rem auto;
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .image-wrapper img {
+    width: 15rem;
+  }
+  .grid-content {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sessao-visao-de-dados .banner-content {
+    display: none;
+  }
+  .sessao-visao-de-dados-content .card-item {
+    margin: 0px 10px;
+  }
+
+  .sessao-plataforma-dinamica img {
+    width: 15.438rem;
+
+    margin: -12rem 0rem 0rem 40rem;
+  }
+
+  .sessao-visao-de-dados-content #img-2 {
+    margin-top: -28rem;
+    margin-left: 34rem;
+    width: 21rem;
+  }
+
+  /*
+  #cards-visao-de-dados {
+    margin: -10rem auto;
+  }
+  */
+
+  .sessao-plataforma-dinamica {
+    margin: -10rem auto;
+  }
+
+  .sessao-contato {
+    margin-top: 15rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .sessao-plataforma-dinamica img {
+    margin: -12rem 0rem 0rem 35rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* Vinicius */
+
+  .sessao {
+    width: 90%;
+    margin: 3rem auto;
+  }
+
+  .logo-portal-geo {
+    margin-left: 0rem;
+  }
+  nav {
+    margin-right: 0rem;
+  }
+  header {
+    height: 35rem;
+    background-position: top right;
+    background-size: 1597px;
+  }
+  #linear-gradient {
+    height: 35rem;
+  }
+  .text-card {
+    margin: 5.5rem auto;
+    width: 100%;
+  }
+  .text-card .title {
+    font-size: 2rem;
+  }
+  .text-card .description {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+  .mobile-separator {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .mobile-separator img {
+    width: 5rem;
+
+    margin: -1.5rem auto;
+  }
+  .mobile-separator-2 img {
+    width: 4rem;
+    margin: -1rem auto;
+  }
+
+  .text-content-mobile .border-style {
+    display: none;
+  }
+
+  .text-content-mobile {
+    /* width: 90%; */
+    text-align: center;
+  }
+
+  .border-inside-card-bottom {
+    margin-top: -1.2rem;
+  }
+  .text-content-mobile p {
+    text-align: center;
+  }
+
+  .cards-mobile-wrapper {
+    margin-top: -4rem;
+  }
+  #desc {
+    width: 100%;
+  }
+
+  .sessao-visao-de-dados {
+    height: 30rem;
+  }
+
+  .sessao-plataforma-dinamica {
+    margin-top: 3rem;
+  }
+
+  .wrapper-plataforma-dinamica {
+    margin-top: 0;
+  }
+
+  .sessao-plataforma-dinamica .content-plataforma-dinamica {
+    width: 50%;
+    margin-left: 6rem;
+  }
+
+  .sessao-plataforma-dinamica h3 {
+    margin-left: 6rem;
+    color: #0092c2;
+  }
+
+  .sessao-plataforma-dinamica span {
+    display: none;
+  }
+  .sessao-plataforma-dinamica img {
+    width: 15rem;
+
+    margin: -15rem 0rem 0rem 28rem;
+  }
+
+  .grid-container {
+    margin-top: 1rem;
+  }
+
+  .grid-content {
+    width: 100%;
+  }
+
+  #grid-content-2 {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  #grid-item-last {
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 36rem;
+  }
+  #linear-gradient {
+    height: 36rem;
+  }
+  .text-card {
+    margin: 1rem auto;
+    width: 100%;
+  }
+  .text-card .title {
+    font-size: 1.8rem;
+  }
+  .sessao-visao-de-dados .border-style {
+    display: none;
+  }
+  .sessao-ferramenta {
+    margin: 2rem auto;
+  }
+
+  .sessao-ferramenta .title {
+    margin-top: 1rem;
+    margin: initial;
+    width: 100%;
+  }
+
+  .sessao-ferramenta .description {
+    width: 100%;
+  }
+  .image-wrapper {
+    max-width: 5rem;
+  }
+  .image-wrapper img {
+    max-width: 7rem;
+    margin-left: -3rem;
+  }
+
+  .sessao-coleta-de-dados .content-column {
+    width: 65%;
+  }
+  .mobile-separator {
+    display: block;
+    text-align: center;
+  }
+  .text-content-mobile {
+    width: 100%;
+    margin: 2rem auto;
+    margin-left: 1rem;
+    text-align: start;
+  }
+  .text-content-mobile .title {
+    width: 100%;
+    margin: initial;
+  }
+  .text-content-mobile p {
+    text-align: start;
+  }
+
+  #desc {
+    width: 95%;
+  }
+
+  .flex-section {
+    margin-bottom: 1rem;
+  }
+  .cards-mobile-wrapper {
+    width: 100%;
+  }
+
+  .cards-mobile {
+    margin: 7rem auto;
+    width: 90%;
+  }
+
+  .border-inside-card {
+    display: none;
+  }
+  .border-inside-card-bottom {
+    display: none;
+  }
+
+  .card-item {
+    width: 144px;
+    height: 240px;
+  }
+  .sessao-visao-de-dados-content {
+    margin: -3rem auto;
+  }
+  .sessao-visao-de-dados-content h2 {
+    text-align: center;
+    width: 100%;
+  }
+  .sessao-plataforma-dinamica h3 {
+    margin-left: 2rem;
+  }
+  .sessao-plataforma-dinamica .content-plataforma-dinamica {
+    margin-left: 2rem;
+    width: 50%;
+  }
+
+  .sessao-plataforma-dinamica img {
+    width: 8.5rem;
+
+    margin: -10rem 0rem 0rem 13.5rem;
+    display: block;
+  }
+  .grid-circle {
+    width: 15px;
+    height: 10px;
+  }
+  #grid-content-1 {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
+  #grid-item-last {
+    margin-left: 0rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  header {
+    width: 100%;
+    background-position: top left;
+
+    background-size: 2000px;
+  }
+}
+
+/* Vinicius */
+@media screen and (min-width: 800px) {
+  .sessao {
+    margin: 3rem 12rem;
+  }
+
+  .sessao.metade-margin-direita {
+    margin-right: 6rem;
+  }
+
+  .negativar-margin-esquerda {
+    margin-left: -12rem;
+  }
+
+  .negativar-margin-direita {
+    margin-right: -12rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cards-mobile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card-item {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .card-item {
+    height: auto;
+  }
+}
+
+.cards-mobile .card-item {
+  flex: 1 0 45%;
+  max-width: 250px;
+}
+
+.card-item {
+  display: flex;
+}
+
+.card-item .card-item-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-item .card-item-wrapper > * {
+  margin: 20px;
+}
+
+.card-item .card-item-wrapper > *:nth-child(2) {
+  flex: 1;
+}
+@media screen and (max-width: 350px) {
+  .cards-bottom-wrapper {
+    display: block;
+  }
+
+  .sessao-visao-de-dados-content .card-item {
+    margin: 2rem auto;
+  }
+  .grid-content {
+    grid-template-columns: 1fr;
+  }
+  #grid-content-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-circle {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
